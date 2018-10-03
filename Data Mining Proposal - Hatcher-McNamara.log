@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.8)  2 OCT 2018 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.12.8)  3 OCT 2018 13:27
 entering extended mode
 **"./Data Mining Proposal - Hatcher-McNamara.tex"
 ("Data Mining Proposal - Hatcher-McNamara.tex"
@@ -177,32 +177,28 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `"Data Mining Proposal - Hatcher-McNamara.toc"'.
 
- [2]
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+ [2] [1
 
- []
-
-[1
-
-] [2] [3] [4] ("Data Mining Proposal - Hatcher-McNamara.aux") ) 
+] [2] [3]
+("Data Mining Proposal - Hatcher-McNamara.aux") ) 
 Here is how much of TeX's memory you used:
- 1554 strings out of 493312
- 23007 string characters out of 3125475
- 85256 words of memory out of 3000000
- 5130 multiletter control sequences out of 15000+200000
+ 1556 strings out of 493312
+ 23037 string characters out of 3125475
+ 83266 words of memory out of 3000000
+ 5132 multiletter control sequences out of 15000+200000
  8241 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,6n,32p,1273b,180s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Willia
-m Hatcher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
-12.pfb><C:/Users/William Hatcher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><C:/Users/William Hatcher/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/William Hatcher/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "Data Mining Proposal - Hatcher-McNamara.pdf" (6 pages, 80346
+ 24i,6n,32p,1041b,131s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/William Hatcher/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Use
+rs/William Hatcher/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/William Hatcher/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/William Hatcher/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Data Mining Proposal - Hatcher-McNamara.pdf" (5 pages, 76472
  bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

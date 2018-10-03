@@ -55,7 +55,7 @@
 
 	\item{\bfseries Technical Points of Contact:}
 
-		\hspace{4ex} Name: William G. Hatcher
+		\hspace{4ex} Name: W. Grant Hatcher
 		
 		\hspace{4ex} Email Address: whatch2@students.towson.edu
 		
@@ -85,7 +85,7 @@
 
 \end{flushleft}
 
-With 43.5\% market share in 2017, Amazon is the leader in online retailing in the US. The tech giant possesses a wealth of data regarding customer purchases, preferences, reviews, and more. Using data mining techniques, we can harness this data to research patterns in customer sentiments and buying habits. In this proposal, we plan on exploring a set of Amazon customer reviews to analyze patterns between various attributes and develop a predictive tool for discovered correlated variables. \\[2pt]
+With 43.5\% market share in 2017, Amazon is the leader in online retail in the US. The tech giant possesses a wealth of data regarding customer purchases, preferences, reviews, and more. Using data mining techniques, we can harness this data to research patterns in customer sentiments and buying habits. In this proposal, we plan on exploring a set of Amazon customer reviews to analyze patterns between various attributes and develop a predictive tool for discovered correlated variables. Considering a dataset of over 130 million reviews provided from Amazon's AWS service, we have the potential to consider the impacts of positive and negative reviews on product ratings and customer sentiment. Moreover, applying advanced machine learning systems, such as deep neural networks in TensorFlow, we have the potential to provide high-accuracy predictive capabilities to be leveraged for consumer targeting, increased customer satisfaction, and the generation of additional revenue. \\[2pt]
 
 
 %  -----   Table of Contents    ------
@@ -100,50 +100,42 @@ With 43.5\% market share in 2017, Amazon is the leader in online retailing in th
 
 \section{Introduction}
 
-	\subsection{Problem Statement}\hspace{4ex} Current dataset contains over 9,000,000 individual Amazon product reviews containing attributes such as Customer ID, Product ID, Star Rating, Helpful Votes, Total Votes, Helpful Review (Y or N) and review date. The dataset, while detailed, does not relate reviews to each other or correlate attributes to show patterns.   
+	\subsection{Problem Statement}\hspace{4ex} As a massive company subsuming large portions of a variety of consumer markets, Amazon generates a considerable amount of Big Data. This data represents a new type of natural resource in the modern digital era. What's more, the question of how to analyze and extract business insights from this massive data remains unresolved. The current dataset contains over 130,000,000 individual Amazon product reviews covering a range of 46 product categories, and containing attributes such as Customer ID, Product ID, Star Rating, Helpful Votes, Total Votes, and Review Date. The dataset, while detailed, does not alone relate reviews to one another, correlate attributes to show patterns, or provide clear intelligence on the particular types of reviews or reviewers that potential customers find helpful. These analytical measures must be achieved through the process of Data Mining must consider.	
 	
+	\subsection{Challenges}\hspace{4ex} A variety of challenges exist in considering such Big Data, defined by the Volume, Value, Velocity, Veracity, etc. that make such data too large for traditional data processing techniques to handle. As a critical challenge, the size of the data will particularly make cleaning and processing time-consuming and difficult. In addition, despite the volume of data, it is unclear what, if any, value can be extracted. For instance, the purchasing history of the products would be an ideal additional data feature to have, but this is not present. Instead, we can only guess that certain types of reviews and certain trusted reviewers play a role in the positive purchasing experience of other customers. 
 	
-	\subsection{Challenges}\hspace{4ex} Deep learning now suffuses the applications and software products that make daily life easier and allow us to stay connected. Yet, it may be impossible to cover every area that deep neural networks have been applied. In a research context, looking only at the IEEE Xplore digital library, some 7,593 articles have been published relevant to deep learning. In addition, enterprise and commercial deep learning systems can only be assessed from the corporate and trade publications they deign to release, often seeking to keep hidden the mechanisms that may indeed be trade secrets. Thus, to properly survey the landscape of deep learning, it is imperative to have a thorough understanding of deep learning architectures, and to be able to infer and discriminate what information is truly novel and unique. \\
-		
-	\subsection{Importance}\hspace{4ex} Deep learning is at a critical peak of public awareness. As more researchers are investigating the application of deep learning to their field or topics of study, it is necessary for those without the knowledge to have a reference to assist them in applying appropriate deep learning approaches, whether they be classification, regression, data fusion, reinforcement learning, etc. In addition, for the general Computer Science community, and those that work daily with deep learning architectures, the breadth and depth of deep learning holds many novel and interesting works that may perhaps provide inside into solving a particular problem. 
+	\subsection{Objectives}\label{Objectives}\hspace{4ex}In our analysis of the Amazon Customer Review dataset, we consider several key objectives. Namely, we are interested in:
 	
-	\subsection{Objectives}\hspace{4ex}In this project, we plan to evaluate the state-of-the-art of Deep Learning across platforms, algorithms, and datasets. Specifically, we intend to categorize Deep Learning by mechanism, algorithm, hyperparamters, platform, applications, and performance. This includes developing a survey of the works done in this area, and conducting benchmark tests to provide baseline comparative analysis. 
+	\begin{enumerate}
+		\item Conducting and exploratory analysis of the dataset to establish a baseline understanding, which can be used to make several educated guesses about algorithms to use and features to consider.  
+		\item Applying a variety of shallow (Naive Bayes, Decision Tree, Logistic Regression, etc.) and deep (RNN, CNN, GAN, etc.) learning algorithms and techniques, where applicable, to fit our datasets with high accuracy.
+		\item Developing predictive models from the data to be applied in future business decisions and applications.
+	\end{enumerate} 
 
 \section{Project Approach and Management Plan}
 
-	\subsection{Overview}\hspace{4ex}Two primary deliverables are intended in this work. First, a survey of deep learning shall be conducted, considering the origins and recent advances in deep neural networks. This survey shall categorize deep learning architectures into various categories and subcategories derived from the type of learning, learning target, algorithmic implementation, enabling software frameworks, and datasets. Then, we shall carry out a practical evaluation of many of the representative software platforms to investigate their efficiency, diversity, and ease of use. 
+	\subsection{Overview}\hspace{4ex}The primary deliverables of this project are the mid-term and final reports. These reports shall include updates of the progress of the project in achieving the three objectives outlined in Section~\ref{Objectives}, above. The deliverables will include all appropriate figures, charts, and visualizations of the exploratory analysis, shall detail the methods of data processing and analysis, and shall provide clear evaluation of the results.
 	
+	\vspace{-7mm}
 	\begin{flushleft}
 		\item{\textbf{Deliverables:}}
 		
-		\hspace{4ex} a. \textit{Deep Learning Survey:} The survey will consider the evolution of Machine Learning to the current Deep Learning paradigm, the enabling algorithms and technologies, a classification of the available platforms,  current and emerging applications of Deep Learning, and future research directions. The survey will review cross-sections of supervised learning, reinforcement learning, and unsupervised learning, and review the advances in convolutional neural networks, deep belief networks, deep Q-learning, and more.
+		\hspace{4ex} a. \textit{Mid-Term Progress Report:} This progress report will provide an update on the status of each of the three objectives, and demonstrate any results. This report will also consider the time-line for delivery of the Final Report, and the remaining steps and schedule necessary for completion. This deliverable should include a preliminary version or working copy of the Final Report.
 		
-		\hspace{4ex} b. \textit{Practical Implementation and Evaluation:} The practical evaluation of Deep Learning platforms will test the comparative performance of the various platforms and their comparable algorithms in terms of accuracy and runtime on various datasets. Each dataset represents a different learning application (classification, anomaly detection, etc.). Platforms include TensorFlow, Theano, Keras, Torch, Deeplearning4J, among others. \\[11pt]
+		\hspace{4ex} b. \textit{Final Report:} This report will detail all of the actions taken in carrying out the project, and shall follow an IEEE conference or journal formatting. Specifically, this report should include Introduction, Background, Data Description, Evaluation, and Conclusion sections. \textit{Note: These headers are subject to revision as necessary.} \\[11pt]
 		
-		\item{\textbf{Datasets:}}
+		\item{\textbf{Dataset:}}
 		
-		\hspace{4ex} a. \textit{Handwriting Samples:} The MNIST dataset is a widely used dataset for machine learning of handwritten numbers. This dataset is provided the National Institute of Standards and Technology, and comprises some 60,000 samples. 
-		
-		\hspace{4ex} b. \textit{Image Classification:} The ImageNet dataset, composed of over 14 million labeled images, is another widely used dataset, and was part of the ImageNet competition. This dataset is used for object and scene recognition.
-		
-		\hspace{4ex} c. \textit{Speech Recognition:} The TIMIT dataset includes recordings of 630 speakers of eight major American English dialects, each reading ten sentences.  
-		
-		\hspace{4ex} d. \textit{Text Data:} The Examiner.com crowd-sourced news website data includes over 3 million instances of headlines, spam, etc. for clustering and sentiment analysis.
-		
-		\hspace{4ex} e. \textit{Mobile Malware:} In the course of our prior work, we have assembles some 60,000 Android Applications (Benign and Malware) from various sources for use in android malware detection.  
-		
-		\hspace{4ex} f. \textit{Network Traffic:} Multiple datasets have been requested from the Center for Applied Internet Data Analysis (CAIDA), which includes public and upon-request anonymized network traces from 2008-2016, as well as various worm trace snapshots.
-		
+		\hspace{4ex} \textit{Amazon Customer Reviews:} The acquired dataset contains some 130 million customer review instances. Dataset features include: marketplace, customer\_id, review\_id, product\_id, product\_parent, product\_title, product\_category, star\_rating, helpful\_votes, total\_votes, vine, verified\_purchase, review\_headline, review\_body, and review\_date. The data is collected into 46 ``.tsv" (tab-separated value) files. 
+				
 	\end{flushleft} 
 	
-	\subsection{Schedule}\hspace{4ex}Based on the overview provided, two major tasks are to be delivered. The first, the survey of deep learning, shall be conducted in the first three months of the period of performance, and shall be delivered by {\em March 31, 2018}. 
+	\subsection{Schedule}\hspace{4ex}Based on the overview provided, two major reports are to be delivered. The first, the Mid-Term Progress Report, shall be be delivered by midnight on {\em November 8, 2018}. The second, the Final Report, will be delivered by midnight on {\em December 6, 2018}. 
 	
-	The second deliverable, the comparative analysis of deep learning platforms, shall be carried out over the remaining three months to be delivered at the completion of the performance period, on {\em June 30, 2018}. This will entail the evaluation of at least four major deep learning platforms on the six datasets noted in the \textbf{Dataset} subsection of Section 2.1. 
-	
-	\subsection{Qualifications}\hspace{4ex}This research group has conducted many successful surveys in the past, and has been conducting research on machine learning and deep neural networks for some time. Publications of this work include various IEEE conferences and journals. The most recent works include deep learning for Android malware detection, using the malware dataset outlined above. Other publications include network traffic analysis using distributed parallel systems, among others. We feel this work has a high chance of success, given the current demand for the topic, and the relevancy of the review of deep learning platforms. Specifically, such platforms abound, and navigating the various aspects of deep learning implementations requires no small amount of experience. In addition to these qualifications, we have access to multiple server-grade computer systems in our research lab, as well as access to the IEEE Xplore digital library for reference.   
+	\subsection{Qualifications}\hspace{4ex}This project team has been recently formed combining expertise in machine learning and marketing analytics. In addition, the team has some minor experience in the use of the Python programming language to carry out Data Mining tasks, as well as more extensive experience applying TensorFlow for machine learning classification tasks. While this project will present several novel challenges, we believe this team is able to combine their diverse skills and knowledge to accomplish the outlined tasks.   
 
 \section{Evaluation of Success}\
 
-The success criteria of this projects are based on two primary metrics: (i) the timely delivery of the deliverables by the proposed due dates (Merch 31 and June 30 of 2018), and (ii) the acceptance and publication of both works. In the case of publication, the survey must be accepted by a reputable journal, and not simply a conference, while the comparative assessment will still be considered successful only being accepted for conference publication.
+The success criteria of this project will be based on two major factors: (i)The content and novelty of the two primary deliverables (Mid-Term Progress Report and Final Report) and (ii)The completion of the three Objectives outlined above. Note that the completion of the objectives heavily influence the content of the Final Report and, to a lesser extent the Mid-Term Progress Report. The rubric for assessing these reports can be found in the \textit{COSC757\_Assignment Evaluation Rubric.pdf} provided by the professor, unless any superseding rubric is provided.
 
 \end{document}
